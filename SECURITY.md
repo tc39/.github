@@ -22,9 +22,11 @@ Alternately, send an email to `security@tc39.es`
 > [!NOTE]
 > This list is not exhaustive.
 
-| Engine/Platform | Used In                | Link to Report                                  |
-| --------------- | ---------------------- | ----------------------------------------------- |
-| JavaScriptCore  | Safari                 | [Report](https://webkit.org/security-policy/)   |
-| Node            |                        | [Report](https://nodejs.dev/en/about/security/) |
-| SpiderMonkey    | Firefox                | [Report](https://www.mozilla.org/security/)     |
-| V8              | Chrome, Chromium, Edge | [Report](https://v8.dev/docs/security-bugs)     |
+| Engine/Runtime | Used In                            | Link to Report                                             |
+| -------------- | ---------------------------------- | ---------------------------------------------------------- |
+| JavaScriptCore | Safari, Bun                        | [Report](https://webkit.org/security-policy/)              |
+| SpiderMonkey   | Firefox                            | [Report](https://www.mozilla.org/security/)                |
+| V8             | Chrome, Chromium, Edge, Node, Deno | [Report](https://v8.dev/docs/security-bugs)                |
+| Node           |                                    | [Report](https://nodejs.dev/en/about/security/)            |
+| Deno           |                                    | [Report](https://github.com/denoland/deno/security/policy) |
+| Bun            |                                    | [Report](https://github.com/oven-sh/bun/security/policy)   |
